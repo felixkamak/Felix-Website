@@ -1,0 +1,117 @@
+header{
+  text-align: center;
+  background-image: url('pexels-photo-255379.jpg');
+  background-size: cover;
+background-position: center;
+margin: 0;
+padding: 2.3em;
+}
+
+nav a:link{
+  color: grey;
+  text-decoration: none;
+}
+nav a:hover{
+  color:lightblue;
+  font-weight: bold;
+}
+nav{
+  text-align: center;
+}
+nav ul{
+  padding:0%;
+}
+nav li{
+  display: inline-block;
+  width: 20%;
+}
+h2{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+section{
+  border-radius: 1em;
+  margin: 80px  30px;
+  padding: 10px 20px 30px 20px;
+
+}
+section h2{
+  text-align: center;
+}
+#about{
+background-color: lightgreen;
+}
+
+#about img{
+  float: right;
+  max-width: 80%;
+  height:auto;
+  max-height: 300px;
+}
+.flex-container div{
+  display: inline-block;
+  width: 8em;
+	height: 6em;
+	background: grey;
+	margin: 1em;
+	text-align: center;
+	line-height: 6em;
+	color: white;
+}
+.flex-container div:hover{
+  background: green;
+}
+
+#Courses{
+  background-color: pink;
+
+}
+#Courses table{
+  border-collapse: collapse;
+  width: 80%;
+  text-align: center;
+  margin: 2em;
+}
+#Courses th{
+  font-size: 20px;
+}
+#Courses td{
+  font-size: 16px;
+}
+#Courses th,td{
+  padding: 1em;
+}
+#Courses tr:hover{
+  background: white;
+}
+
+#Links{
+  background-color: lightblue;
+}
+#Links a:hover{
+  font-family: fantasy;
+}
+#GameDesign{
+  background-color: lightyellow;
+}
+footer{
+  background-color: #8080FF;
+  text-align: right;
+}
+@media screen and (max-width: 600px) {
+nav li {
+	padding: 0;
+	width: 3em;
+}
+#about img {
+	min-width: 100%;
+}
+
+#about .flex-container div {
+	margin: 5px;
+}
+
+#Courses table {
+	width: 100%;
+	margin: 0;
+}}
