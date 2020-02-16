@@ -5,6 +5,7 @@ header{
 background-position: center;
 margin: 0;
 padding: 2.3em;
+
 }
 
 nav a:link{
@@ -31,12 +32,17 @@ h2{
 }
 section{
   border-radius: 1em;
-  margin: 80px  30px;
+  margin: 80px 0px;
   padding: 10px 20px 30px 20px;
 
 }
 section h2{
   text-align: center;
+
+}
+.clearfix{
+  overflow:auto;
+
 }
 #about{
 background-color: lightgreen;
@@ -44,16 +50,15 @@ background-color: lightgreen;
 
 #about img{
   float: right;
-  max-height: 30%;
-  width: auto;
-  max-width: 300px;
-  transform: rotate(90deg);
-  border: 2em;
+  max-width: 80%;
+  height: auto;
+max-height: 300px;
   }
-.clearfix{
-  overflow: hidden;
-}
 
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+}
 .flex-container div{
   display: inline-block;
   width: 8em;
@@ -61,7 +66,7 @@ background-color: lightgreen;
 	background: grey;
 	margin: 1em;
 	text-align: center;
-	line-height: 6em;
+	line-height: 4em;
 	color: white;
 }
 .flex-container div:hover{
@@ -105,20 +110,35 @@ footer{
   text-align: right;
 }
 @media screen and (max-width: 500px) {
+  h2{
+    font-size: 1em;
+  }
+  #Courses th{
+    font-size: 16px;
+  }
+  #Courses td{
+    font-size: 12px;
+  }
 nav li {
 	padding: 0;
 	width: 3em;
 }
+section{
+  margin: 0;
+  padding: 1em;
+  border-radius: 0;
+}
 #about img {
-	min-height: 100%;
+	min-width: 80%;
 max-width: 200px;
 }
 
 #about .flex-container div {
 	margin: 5px;
+  line-height: 2em;
 }
 
 #Courses table {
-	width: 100%;
+	width: 80%;
 	margin: 0;
 }}
