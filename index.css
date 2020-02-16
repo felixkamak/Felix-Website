@@ -48,6 +48,9 @@ background-color: lightgreen;
   height:auto;
   max-height: 300px;
 }
+.clearfix{
+  overflow: auto;
+}
 .flex-container div{
   display: inline-block;
   width: 8em;
