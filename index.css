@@ -44,9 +44,14 @@ background-color: lightgreen;
 
 #about img{
   float: right;
-  max-width: 80%;
-  height:auto;
-  max-height: 300px;
+  max-height: 30%;
+  width: auto;
+  max-width: 300px;
+  transform: rotate(90deg);
+  border: 2em;
+  }
+.clearfix{
+  overflow: hidden;
 }
 
 .flex-container div{
@@ -99,13 +104,14 @@ footer{
   background-color: #8080FF;
   text-align: right;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 nav li {
 	padding: 0;
 	width: 3em;
 }
 #about img {
-	min-width: 100%;
+	min-height: 100%;
+max-width: 200px;
 }
 
 #about .flex-container div {
