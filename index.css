@@ -129,8 +129,7 @@ section{
   border-radius: 0;
 }
 #about img {
-	min-width: 80%;
-max-width: 200px;
+	min-width: 120%;
 }
 
 #about .flex-container div {
